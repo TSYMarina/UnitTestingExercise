@@ -44,7 +44,7 @@ namespace UnitTestingExercise
             return result;
         }
 
-        // Create 2 methods that will utilize the [Fact] tests you wrote
+        // Create a method that will utilize the [Fact] tests you wrote
 
         public string GetGreatDay()
         {

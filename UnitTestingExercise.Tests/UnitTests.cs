@@ -68,8 +68,9 @@ namespace UnitTestingExercise.Tests
         {
             //Arrange
             var byeTest = new UnitTestMethods();
+
             //Act
-            var actual = "Have a great day!";
+            var actual = byeTest.GetGreatDay();
             //Assert
             Assert.Matches("Have a great day!", actual);
         }
